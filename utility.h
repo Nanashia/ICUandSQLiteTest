@@ -20,4 +20,3 @@ void _print_internal(T v) {
 std::ostream &operator<<(std::ostream &os, char* const &str) {
 	return os << std::string(str);
 }
-
